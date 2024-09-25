@@ -1,0 +1,117 @@
+.banner{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    padding: 40px;
+    
+
+    .left{
+        
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 12px;
+        margin-left: 40px;
+        width: 400px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+       
+      
+        
+        
+        h1{
+            font-size: 35px;
+            color: #2f1c6a;
+            text-align: left;
+          
+            margin-bottom: 0px;
+            
+            
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            color: #2f1c6a;
+           
+            span{
+                color: blue;
+            }
+        }
+        .servWrap{
+            
+            margin-bottom: 20px;
+            color: #2f1c6a;
+            font-weight: 400;
+            .service{
+                display: flex;
+            align-items: center;
+            gap: 8px;
+            }
+        }
+        .price{
+            color: #2f1c6a;
+            font-size: 25px;
+            span{
+                font-size: 50px;
+                font-weight: bold;
+            }
+        }
+        .free{
+            color: #2f1c6a;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .timer{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            .box{
+                width:150px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                
+                background-color:#ebe4ff;
+               
+
+            }
+            button{
+                color: white;
+                background-color: blue;
+                width:150px;
+                height: 50px;
+                border-radius: 10px;
+                font-size: 15px;
+                font-weight: bold;
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                
+            }
+        }
+        .protection{
+            margin-top: 20px;
+            display: flex;
+            gap: 5px;
+            span{
+                color: #2f1c6a;
+            }
+            
+
+        }
+    }
+    .right{
+        flex: 2;
+        display: flex;
+        justify-content: flex-start;
+        img{
+            
+            height: 550px;
+            width: 80%;
+        }
+    }
+}
